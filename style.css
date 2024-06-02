@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right);
+}
+
+.heading-container{
+    display: flex;
+}
+.heading{
+    margin-left: 8px;
+    color:rgb(250, 71, 40);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 400px;
+    height: 300px;
+    outline: 0;
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    resize: none;
+    overflow-y: scroll;
+}
+
+.btncontainer{
+    display: flex;
+    justify-content: end;
+}
+.voicebtn{
+    margin:4px 30px 4px 2px;
+    width:250px;
+    max-width: 390px ;
+    overflow-x: hidden;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.genbtn{
+    margin:4px 2px;
+    padding: 3px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(250, 71, 40);
+    color:white;
+}
